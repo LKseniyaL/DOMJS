@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****************** Task 1 ***********************/
+.divCircle{
+    width: 400px;
+    height: 400px;
+    border: 2px solid blue;
+    margin: 100px auto;
+    border-radius: 50%;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+.bth_red{
+    background-color: red;
+}
+.bth_green{
+    background-color: green;
+}
+.bth_blue{
+    background-color: blue;
+}
+
+
+.divCircle.active_red{
+    background-color: red;
+}
+.divCircle.active_green{
+    background-color: green;
+}
+.divCircle.active_blue{
+    background-color: blue;
+}
+
+/****************** Task 2 ***********************/
+
+.divCircle2{
+    width: 400px;
+    height: 400px;
+    border: 2px solid pink;
+    margin: 100px auto;
+    border-radius: 50%;
+}
+.buttons2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.buttonsCollection{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
