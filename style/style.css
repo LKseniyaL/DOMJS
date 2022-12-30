@@ -27,6 +27,7 @@ button{
     color: white;
     font-size: 15px;
     font-style: italic;
+    cursor: pointer;
 }
 .bth_red{
     background-color: red;
@@ -72,4 +73,5 @@ button{
     color: white;
     font-size: 15px;
     font-style: italic;
+    cursor: pointer;
 }

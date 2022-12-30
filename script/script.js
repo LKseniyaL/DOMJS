@@ -12,18 +12,21 @@ bth_red.addEventListener('click', () => {
     divCircle.classList.toggle('active_red');
     divCircle.classList.remove('active_green');
     divCircle.classList.remove('active_blue');
+    divCircle.style.border = 'none';
 });
 
 bth_green.addEventListener('click', () => {
     divCircle.classList.toggle('active_green');
     divCircle.classList.remove('active_red');
     divCircle.classList.remove('active_blue');
+    divCircle.style.border = 'none';
 });
 
 bth_blue.addEventListener('click', () => {
     divCircle.classList.toggle('active_blue');
     divCircle.classList.remove('active_red');
     divCircle.classList.remove('active_green');
+    divCircle.style.border = 'none';
 });
 
 //****************** Task 2******************/
@@ -43,6 +46,7 @@ function newFunc(array){
 
         newBth.addEventListener('click', () => {
             divCircle2.style.backgroundColor = array[i];
+            divCircle2.style.border = 'none';
         })
 
         buttons2.append(newBth); 
